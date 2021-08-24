@@ -1,10 +1,28 @@
-import ExpenseItem from "./components/ExpenseItem";
-
+import Part from "./components/Part";
+import AboutMeButton from "./components/AboutMeButton";
+import "./App.css";
 function App() {
   return (
     <div>
-      <h2>Let's get started!</h2>
-      <ExpenseItem></ExpenseItem>
+      <div className="box">
+        <div className="title">
+          <h2>ROBYN MATUTO</h2>
+          <tr>
+            <td className="list">
+              <AboutMeButton></AboutMeButton>
+            </td>
+            <td className="list">
+              <AboutMeButton></AboutMeButton>
+            </td>
+            <td className="list">
+              <AboutMeButton></AboutMeButton>
+            </td>
+          </tr>
+        </div>
+      </div>
+      <div className="center">
+        <Part></Part>
+      </div>
     </div>
   );
 }
