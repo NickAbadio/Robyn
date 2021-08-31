@@ -1,0 +1,20 @@
+.about {
+  border-radius: 2% 0% 0% 2%;
+  width: 70%;
+  min-width: 400px;
+  min-height: 500px;
+  background-color: seashell;
+  margin-top: 150px;
+  margin-left: 0px;
+  box-shadow: 2px 2px 20px;
+  float: right;
+}
+
+.info {
+  margin: auto;
+  width: 50%;
+}
+.header {
+  margin: auto;
+  padding: auto;
+}

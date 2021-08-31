@@ -1,0 +1,39 @@
+.intro {
+  border-radius: 0% 2% 2% 0%;
+  width: 70%;
+  min-width: 400px;
+  min-height: 700px;
+  background-color: seashell;
+  margin-top: 10px;
+  margin-left: 0px;
+  box-shadow: 2px 2px 20px;
+  float: left;
+}
+
+.info {
+  float: left;
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-gap: 40px;
+  padding-left: 150px;
+}
+
+.header {
+  margin: auto;
+  float: none;
+}
+.title {
+  text-align: center;
+}
+.image {
+  float: right;
+}
+.image1 {
+  background-color: #6a35af;
+  height: 100%;
+  border-radius: 100%;
+  margin-right: 100px;
+  margin-top: 50px;
+
+  box-shadow: 2px 2px 9px;
+}
